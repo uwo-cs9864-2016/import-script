@@ -19,12 +19,11 @@ const argv = require('minimist')(process.argv.slice(2), {
     'quiet': ['q']
   },
   default: {
-    db: './stock-data-test.db',
     'clean-db': true,
     'nuke-db': false,
     'chunk-size': 500000,
     quiet: false,
-    'log-level': 'debug'
+    'log-level': 'info'
   }
 });
 
